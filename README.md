@@ -3,6 +3,7 @@
 
 Need a way to run this command on my VM for testing and having the ability to change values
 
+I think I started to use fw_printenv because it gave me the full chipset where as ipctool game be a short version of it
 
 ## Setup
 
@@ -42,3 +43,9 @@ ethaddr=42:F4:90:8D:D0:75
 upgrade=https://github.com/OpenIPC/builder/releases/download/latest/ssc338q_fpv_openipc-urllc-aio-nor.tgz
 EOF
 ```
+
+
+### References
+* https://github.com/OpenIPC/ipctool
+
+
